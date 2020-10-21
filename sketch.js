@@ -24,7 +24,7 @@ function setup() {
  grnd = new Ground(240,700,460,10);
 
 
- for( k = 0 ; k <= width ; k = k+80 ){
+ for( var k = 0 ; k <= width ; k = k+80 ){
 
 
   divisions.push( new Divisions(k , height - divisionHeight/2 ,10 ,divisionHeight) )
@@ -32,6 +32,7 @@ function setup() {
 
  }
 
+ console.log(divisions);
 
  for(var j =40 ; j <= width ; j = j+50){
 
@@ -42,10 +43,10 @@ plinkos.push(new Plinkos(j,75));
  }
 
 
- for( var j =15 ; j <= width-10 ; j = j+50){
+ for( var o =15 ; o <= width-10 ; o = o+50){
 
 
-  plinkos.push( new Plinkos(j,175));
+  plinkos.push( new Plinkos(o,175));
   
 
  }
@@ -71,7 +72,7 @@ function draw() {
   
  grnd.display(); 
 
- for( var i =0 ; i <particles.lenght ; i++){
+ for( var i =0 ; i <particles.length ; i++){
 
 
   particles[i].display;
@@ -81,19 +82,19 @@ function draw() {
  }
  
 
- for( var k =0 ; k < divisions.lenght ; k++){
+ for( var m =0 ; m < divisions.length ; m++){
 
 
-  divisions[k].display;
+  divisions[m].display;
 
 
 
  }
 
- for( var j =0 ; j <plinkos.lenght ; j++){
+ for( var n =0 ; n <plinkos.length ; n++){
 
 
-  plinkos[j].display;
+  plinkos[n].display;
 
 
 
