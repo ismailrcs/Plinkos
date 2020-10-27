@@ -27,7 +27,7 @@ display(){
 
 fill("white");
 
-  pos = this.body.position
+ var  pos = this.body.position;
 
  ellipse(pos.x , pos.y , 10);
 
