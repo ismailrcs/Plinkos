@@ -97,7 +97,7 @@ function draw() {
   text("Score : " + score ,30,30);
 
  
-  if( mousePressed()  )
+  if( mousePressed() == true  )
   { 
     
     particles.display();
