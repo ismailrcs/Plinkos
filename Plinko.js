@@ -9,7 +9,7 @@ var options = {
 
 }
 
-this.body = Bodies.circle(x,y,10,options);
+this.body = Bodies.circle(x,y,5,options);
 
 this.x =x;
 this.y =y;
@@ -29,7 +29,7 @@ fill("white");
 
  var  pos = this.body.position;
 
- ellipse(pos.x , pos.y , 10);
+ ellipse(pos.x , pos.y , 5);
 
 
 
