@@ -84,7 +84,7 @@ function draw() {
 
   if(count >= 5 ){
 
-    gameState = "END";
+    gameState == "END";
   
    }
   
@@ -143,7 +143,7 @@ function draw() {
 
  text("500",428,400);
 
- if(gameState = "END"){
+ if(gameState == "END"){
 
   fill("white");
   textSize(28);
